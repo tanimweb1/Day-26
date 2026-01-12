@@ -46,7 +46,7 @@ printf("Total: R$ %.2f\n", pay);
 
 
 
-/ bee 1040
+// bee 1040
 
     float n1,n2,n3,n4,avg;
 scanf("%f%f%f%f",&n1,&n2,&n3,&n4);
@@ -65,7 +65,22 @@ if(avg<5){
 if(avg>=5.0 && avg<7){
     printf("Aluno em exame.\n");
 
+float n5,nota,avg2;
+scanf("%f",&n5);
 
+nota = n5;
+printf("Nota do exame: %.1f\n",nota);
+
+avg2 = (avg+nota)/2;
+if(avg2>=5.0){
+    printf("Aluno aprovado.\n");
+}
+if(avg2<=4.9){
+    printf("Aluno reprovado.\n");
+}
+
+printf("Media final: %.1f\n",avg2);
+}
 
 
 
@@ -74,6 +89,7 @@ if(avg>=5.0 && avg<7){
     return 0;
 
 }
+
 
 
 
