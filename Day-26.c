@@ -4,15 +4,7 @@ int main(){
 
 //bee 139 
     
-int x,y;
-scanf("%d%d",&x,&y);
-float yNew = y;
-float p1,p2,p3,p4,p5,pay;
-p1 = 4.00;
-p2 = 4.50;
-p3 = 5.00;
-p4 = 2.00;
-p5 = 1.50;
+
 
 if(x==1){
 
@@ -44,3 +36,4 @@ printf("Total: R$ %.2f\n", pay);
     return 0;
 
 }
+
