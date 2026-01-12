@@ -1,6 +1,9 @@
 #include<stdio.h>
 int main(){
 
+
+//bee 139 
+    
 int x,y;
 scanf("%d%d",&x,&y);
 float yNew = y;
@@ -39,4 +42,5 @@ printf("Total: R$ %.2f\n", pay);
 
 
     return 0;
+
 }
