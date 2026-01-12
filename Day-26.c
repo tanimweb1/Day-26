@@ -36,13 +36,12 @@ printf("Total: R$ %.2f\n", pay);
 }
 if(x==5){
 
-pay = p5*y;
-printf("Total: R$ %.2f\n", pay);
-}
+
 
 
     return 0;
 
 }
+
 
 
